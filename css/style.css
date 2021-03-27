@@ -1,0 +1,108 @@
+
+
+html{
+    overflow-x: hidden;
+}
+
+/*DARK BACKGROUND*/
+.dark-bg{
+    background-image: url(../img/AUDİ-HERO.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+}
+
+#hero .container{
+    height: 60vh;
+}
+
+.h-100 h1{
+    margin-top: 150px;
+}
+
+.generic{
+    padding: 80px 0;
+}
+
+.generic2{
+    padding: 50px 0;
+}
+
+/*CLİCK FOR OPEN SECTİON*/
+
+section#latest .latest-item img{
+    min-height: 100%;
+    width: 100%;
+}
+
+section#latest button{
+    max-height: 250px;
+    padding: 0;
+    overflow: hidden;
+}
+
+section#latest .latest-item{
+    position: relative;
+}
+
+section#latest .latest-item:hover .overlay{
+    opacity: 1;
+    background: rgba(209, 219, 221, .3);
+}
+
+section#latest .latest-item:hover i{
+    opacity: 1;
+    transform: none;
+}
+
+section#latest .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    color: lightblue;
+    transition: all .5s;
+}
+
+section#latest .overlay i{
+    transform: translateY(20px);
+    transition: all .5s;
+    opacity: 0;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.search-bg{
+    background: url('../img/skyscrapper-search.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    max-width: 100%;
+
+}
+
+.card{
+    overflow: hidden;
+}
+
+.card img{
+    transition: all .5s;
+    overflow-y: hidden;
+}
+
+.card:hover img.zoom{
+    transform: scale(1.1);
+    cursor: pointer;  
+}
+
+img.zoom2:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.ct-us{
+    background: url('../img/C.jpg');
+    background-size: cover;
+    max-width: 100%;
+    
+}
